@@ -1,0 +1,33 @@
+[
+  {
+    "id": "poblador",
+    "caption": "Poblador",
+    "link": "<a href='#'>",
+    "items": null
+  },
+  {
+    "id": "configuracion",
+    "caption": "Configuración",
+    "link": "<a href='#'>",
+    "items": [
+      {
+        "id": "tipodocumento",
+        "caption": "Tipo de Documentos",
+        "link": "<a href='#'>",
+        "items": null
+      },
+      {
+        "id": "estadocivil",
+        "caption": "Estado Civil",
+        "link": "<a href='#'>",
+        "items": null
+      }
+    ]
+  },
+  {
+    "id": "salir",
+    "caption": "Salir",
+    "link": "<a href='#'>",
+    "items": null
+  }
+]

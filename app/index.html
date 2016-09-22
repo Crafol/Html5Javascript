@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Aplicacion - Pruebas</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../recursos/bootstrap/css/bootstrap.css">
+    <script src="../recursos/jquery.js"></script>
+    <script src="../recursos/bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+<!--
+    Menu Principal
+-->
+<nav id="navbar"
+     class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <!-- Menu Titulo -->
+        <div id="navbarTitulo"
+             class="navbar-header">
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <!-- Menu Dinamico -->
+            <ul id="navbarDinamico"
+                class="nav navbar-nav">
+            </ul>
+            <!-- Menu Fijo -->
+            <ul id="navbarFijo"
+                class="nav navbar-nav navbar-right">
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--
+    Contenedor principal, los modulos son cargados en este contenedor
+-->
+<div class="container-fluid text-center">
+    <div class="row content">
+        <div id="divContenedor"
+             class="col-sm-10 text-left">
+        </div>
+        <div id="divNavegadorLateral"
+             class="col-sm-2 sidenav">
+        </div>
+    </div>
+</div>
+<!--
+    Pie de pagina, desde esta seccion se lanzan ls notificaciones y se informa el estado de la aplicacion
+-->
+<footer id="piePagina"
+        class="container-fluid text-center navbar-fixed-bottom well well-sm">
+</footer>
+
+<script>
+    $(document).ready(function () {
+        app.iniciar();
+    })
+</script>
+</body>
+</html>
